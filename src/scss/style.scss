@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+.wrapper {
+    max-width: calc(1400px);
+    margin: 0 auto;
+    padding: 0 6vw;
+}
+
+@import './inc/variables';
+@import './inc/font-faces';
+@import './inc/typography';

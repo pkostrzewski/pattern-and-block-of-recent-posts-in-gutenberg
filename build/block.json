@@ -1,0 +1,10 @@
+{
+    "apiVersion": 2,
+    "name": "recruitment-task/latest-posts",
+    "title": "Latest Posts",
+    "category": "widgets",
+    "icon": "smiley",
+    "editorScript": "file:./BlockLatestPosts.js",
+    "editorStyle": "file:./BlockLatestPosts.css",
+    "style": "file:./BlockLatestPosts.css"
+}
