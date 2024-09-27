@@ -9,7 +9,6 @@ require get_template_directory() . '/inc/theme-config.php';
 
 // Registration of general scripts and styles
 function reqruitment_task_enqueue_assets() {
-    // Ustawianie dynamicznej wersji na podstawie czasu modyfikacji pliku
     $main_css_version = filemtime( get_template_directory() . '/build/main.css' );
     $main_js_version = filemtime( get_template_directory() . '/build/main.js' );
 
