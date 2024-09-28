@@ -8,7 +8,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 module.exports = {
     entry: {
         main: './src/index.js', // Main JS file
-        BlockLatestPosts: ['./src/js/blocks/latest-posts.js','./src/scss/blocks/latest-posts.scss'] // Separate SCSS file to be processed
+        BlockLatestPosts: ['./src/js/blocks/latest-posts.js','./src/scss/blocks/latest-posts.scss'],
       },
   output: {
     path: path.resolve(__dirname, 'build'), // Output folder
